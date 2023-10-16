@@ -1,0 +1,7 @@
+#mytabs input[type='radio']:checked + label + #tab{
+    display: block;
+}
+
+#mytabs input[type='radio']:checked + label{
+    background-color: white;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-mono" id="inicio">
+    <nav class=" md:w-[90%] w-[80%] h-[70px] bg-transparent absolute mt-5">
+        <div class=" flex md:justify-between md:items-center md:ml-[10%]">
+            <a href="#inicio"><img class="w-10 h-10" src="https://images.vexels.com/media/users/3/137704/isolated/preview/87530af576941eeea98d685ae40c4d66-logotipo-de-formas-poligonales-geom-tricas.png" alt="logo"></a>
+            <ul class=" hidden md:w-[30%] md:flex md:justify-around">
+                <li class="hover:cursor-pointer hover:underline decoration-solid"><a href="#sobremi">Sobre mi</a></li>
+                <li class="hover:cursor-pointer hover:underline decoration-solid"><a href="#proyectos">Projectos</a></li>
+                <li class="hover:cursor-pointer hover:underline decoration-solid"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="text-white h-full w-full">
+        <section class="bg-gradient-to-t from-orange-400 to-orange-700 md:h-[610px] text-black h-[800px]">
+            <div class="relative top-40 md:px-40 h-[60%]">
+                <h1 class="mb-5 text-2xl font-bold">¡Hola y bienvenidos a mi portafolio!</h1>
+                <p class="mb-10">Soy una apasionada de la programación web y recientemente me gradué de bachillerato. Antes de ingresar a la universidad, decidí tomar un curso de programación web para ampliar mis conocimientos y habilidades en esta emocionante industria. A lo largo de mi trayecto educativo, he adquirido experiencia en lenguajes de estilizado como CSS, Sass y Tailwind, así como en HTML. Mi objetivo con este portafolio es mostrarles mi talento y mi capacidad para crear proyectos web innovadores y visualmente atractivos.</p>
+                <a href="#sobremi" class="hover:underline hover:cursor-pointer">Mas Sobre Mi...</a>
+                <div class="flex justify-between mt-20">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/2175/2175198.png" alt="instagram" class="w-10"> Instagram</a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1384/1384007.png" alt="whatssap" class="w-10">WhatssApp</a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" class="w-10" alt="github">Github</a>
+                    <a href=""><img src="https://icon-library.com/images/gmail-icon-black-and-white/gmail-icon-black-and-white-9.jpg" class="w-10"alt="gmail">Gmail</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-t from-orange-100 to-orange-400 h-[610px] md:h-[540px] md:flex md: relative md:left-0">
+            <div class=" md:w-[90%] bg-orange-300 md:ml-20 relative md:top-10 p-10 md:flex md:justify-between">
+                <div>
+                    <h1 id="sobremi" class="mb-10 text-5xl font-bold">Sobre mi.</h1>
+                    <p class="mb-10">¡Hola de nuevo! Permítanme contarles un poco sobre mí. Mi nombre es Ruth La Cruz y tengo 17 años. Actualmente estoy dedicando mi tiempo a profundizar mis conocimientos en programación web antes de comenzar mis estudios universitarios. Descubrí mi interés por la programación durante mis años de bachillerato y desde entonces, no he dejado de aprender y mejorar en este fascinante mundo. Me apasiona la creación de soluciones digitales atractivas y funcionales, y estoy emocionada de mostrarles lo que puedo ofrecer a través de este portafolio.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="foto1" class="md:w-[50%] md:pb-5 md:pl-5">
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-t from-amber-300 to-amber-100 h-[1240px] md:flex md:justify-around md:h-[700px] relative">
+            <div class="w-[68%] h-[600px] bg-orange-500 mx-10 md:p-10 mt-20 md:mx-20">
+                <h1 id="proyectos" class="mb-10 text-5xl font-bold">Proyectos.</h1>
+                <p class="mb-4">Aquí en mi portafolio podrán encontrar una selección de mis proyectos, los cuales he practicado y perfeccionado a lo largo de mi aprendizaje. Todos mis proyectos están disponibles en mi página de GitHub, donde podrán explorar mi código y ver el resultado final. Estoy orgullosa de compartir estas creaciones con ustedes, ya que demuestran mi dedicación y entusiasmo hacia la programación web. Les invito a explorar y disfrutar de estas muestras de mi trabajo, y me encantaría conocer sus comentarios y feedback.</p>
+            </div>
+            <div class="md:mt-32 ml-10 mt-5">
+                <div class="bg-orange-700 py-5 flex flex-col mb-10 rounded-lg border-2 border-slate-300 w-[80%]">
+                    <a href="https://github.com/ailenlacruz/CloneYoutube#proyectoyoutube" class="text-center text-2xl font-semibold underline">Clon de Youtube</a>
+                    <div class="flex flex-col mt-2 text-sm px-2"> <span class="mb-4"> Proyecto hecho con html y css.</span>
+                    <img  class="w-[500px]" src="image/yutu.png" alt="github1"></div>
+                </div>
+
+                <div class="bg-orange-700 py-5 flex flex-col mb-20 rounded-lg border-2 border-slate-300 w-[80%]">
+                    <a href="https://github.com/ailenlacruz/ClonAmazon" class="text-center text-2xl font-semibold underline">Clon de Amazon</a>
+                    <div class="flex flex-col mt-2 text-sm px-2"> <span class="mb-4"> Proyecto hecho con html y sass.</span>
+                    <img  class="w-[500px]" src="image/amazon.png" alt="github2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" bg-amber-300 h-[750px] md:h-[700px] relative">
+            <div class="w-[70%] pt-20 md:ml-40 ml-5 ">
+                <h1 id="contacto" class="mb-10 text-5xl font-bold">Contacto.</h1>
+                <p class="mb-4">¡Gracias por visitar mi portafolio y espero que disfruten de lo que he creado hasta ahora! Puedes contactarme directamente en lacruzruth84@gmail.com</p>
+            </div>
+            <form action="">
+                <div class=" flex flex-col w-[70%] ml-5 md:ml-40 pt-10">
+                <input type="text" required placeholder="Ingrese su nombre" name="nombre" id="nombre" class="mb-5 p-2 border-[1px] border-neutral-800">
+
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su Email" class="mb-5 p-2 border-[1px] border-neutral-800">
+
+                <input type="text" placeholder="Ingrese su mensaje" name="apellido" id="apellido" class="mb-5 p-2 border-[1px] h-[200px] border-neutral-800">
+
+                <button class="md:w-[20%] bg-white text-black rounded-md mb-5">
+                    <input type="submit" value="Enviar Mensaje">
+                </button></div>
+            </form>   
+            <a href="#inicio" class="md:pl-40 pl-5 hover:underline hover:cursor-pointer">Regresar al Inicio</a>     
+        </section>
+    </main>
+</body>
+</html>
